@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <!--<style>-->
+        <!--.ccc{-->
+            <!--color:red;-->
+        <!--}-->
+    <!--</style>-->
+    <script>
+        window.onload = function () {
+//            var divs = document.getElementsByTagName('div');
+//            for(var i = 0; i < divs.length; i++)
+//            {
+//                divs[i].style.color = 'red';
+//            }
+
+            $('div').css('color','red');
+//            $('div').css('fontSize','30px');
+
+//            var aaaDiv = document.getElementById('aaa');
+//            aaaDiv.style.color = 'red';
+//            $('#aaa').css('color','red');
+
+//            $('span.ccc').css('color','blue');
+
+//              var bbb = $('#abc').html();
+//              alert(bbb);
+
+//             var div = document.getElementById('#abc');
+//             alert(div.innerHTML);
+
+
+//              var divs = $('#abc');
+//              alert(divs.length);
+
+//            var span = document.getElementById('ccc');
+//            span.onclick = function () {
+//                alert('hello')
+//            }
+
+            $('#ccc').click(function () {
+                alert('hello');
+            })
+
+        }
+    </script>
+
+</head>
+<body>
+<div id="aaa">aaa</div>
+<div id="bbb">bbb</div>
+<span id="ccc">ccc</span>
+<div class="ccc">ddd</div>
+</body>
+</html>
